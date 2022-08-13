@@ -39,7 +39,7 @@ a {
 
 button {
     background-color: #3882F6;
-    border-radius: 12px;
+    border-radius: 0.4em;
     padding: 7px 13px;
     border: 0px;
     margin-top: 10px;
@@ -81,6 +81,7 @@ button {
     border: 4px solid blue;
     display: flex;
     justify-content: center;
+    padding: 2em;
     padding-bottom: 2em;
     padding-top: 2em;
     gap: 5rem
@@ -191,4 +192,11 @@ button {
 
 .action-button {
     border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    padding: 2em;
+    text-align: center;
 }
